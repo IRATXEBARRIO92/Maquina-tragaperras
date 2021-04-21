@@ -36,7 +36,7 @@ function sonarMonedas(audio){
 
 
 function tirar() {
-    // insertarImagenes()
+    
     desactivarMonedas()
 
 
