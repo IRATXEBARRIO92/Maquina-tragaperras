@@ -1,0 +1,142 @@
+body {
+    /* background-image: url("./img/fondoPantalla3.jpeg"); */
+    background-color: #810000;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-family: "Pacifico";
+    margin: auto;
+    width: 700px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    margin-top: 1rem;
+    margin-right: 6rem;
+    padding-bottom: 2rem;
+}
+
+
+button {
+    background-color:#eeebdd;
+    cursor: pointer;
+    padding: 2rem;
+    border: 2px solid black;
+    border-radius: 60%;
+    color: black;
+    text-transform: uppercase;
+}
+
+#credito {
+    height:100px;
+    width:100px;
+    background-image: url("./img/moneda.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    
+}
+
+.monedas{ 
+    font-size: 4rem;
+}
+
+#imagenFondo {
+    background-image: url("./img/maquinabuena.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40rem;
+
+}
+
+#cajaImagenes {  
+    width: 45%;
+    display: flex;
+    justify-content: space-around;
+    padding-right: .5rem;
+    padding-top: 2rem;
+    
+}
+
+
+.ventanaImagenes {
+    width: 6rem;
+    
+}
+
+.imagen {
+    height: 4rem;
+    background-color: white;
+    align-items: center;
+    border: 4px solid crimson;
+    border-radius: 10px;padding: 30px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img {
+    max-width: 200%;
+    vertical-align: top;
+}
+
+#velo {
+    top: 0;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+#cuadro_mensaje {
+    border: 3px solid black;
+    width: 500px;
+    border-radius: 12px;
+    min-height: 70px;
+    height: auto;
+    background-color:#eeebdd;
+    margin: auto;
+    margin-top: 1rem;
+    
+}
+
+#mensaje {
+    font-size: 1.6em;
+    color: crimson;
+    text-align: center;
+    background-color:#eeebdd;
+}
+
+#mensaje img {
+    width: 35px;
+}
+
+.divMensaje {
+    display: flex;
+justify-content: center;
+    
+}
+
+.monedasMensaje {
+    margin-top: 0.5rem;
+    margin-left: 1rem;
+}
+
+.imgMessage {
+    padding: 0.3rem;
+}
+
